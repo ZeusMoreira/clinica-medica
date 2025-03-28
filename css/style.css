@@ -217,6 +217,20 @@ body {
     color: var(--cor-primaria);
 }
 
+.botao-flutuante {
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 16px 0 rgba(72, 148, 255, 0.5);
+    position: fixed;
+    bottom: 9rem;
+    right: 2.4rem;
+}
+
 /* medias query relacionado a mobile */
 
 @media (min-width: 320px) {
