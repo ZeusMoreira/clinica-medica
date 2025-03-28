@@ -193,15 +193,16 @@ body {
     box-shadow: 0px -4px 8px 0 rgba(0, 0, 0, 0.06);
 }
 
-.opcao-consultas, .opcao-clientes, .opcao-relatorios, .opcao-menu {
+.opcao {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.6rem;
+    text-decoration: none;
 }
 
-.opcao-consultas__icone, .opcao-clientes__icone, .opcao-relatorios__icone, .opcao-menu__icone {
+.opcao__icone {
     width: 2.5rem;
     height: 2.5rem;
 }
