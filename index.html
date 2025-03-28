@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
     <title>Clínica Médica</title>
 </head>
 <body>
@@ -293,8 +294,23 @@
             <span class="opcao__texto">Menu</span>
         </a>
     </footer>
-    <div class="botao-flutuante">
-        <img src="assets/maisicone.svg" alt="Ícone sinal de adição">
+    <div class="botoes-acao-adicao">
+        <div id="btn-casa-paciente">
+            <span class="btn-texto">Nova consulta na casa do paciente</span>
+            <div class="botao-flutuante" >
+                <img src="assets/pinfabiconee.svg" alt="Ícone sinal de adição">
+            </div>
+        </div>
+        <div id="btn-video">
+            <span class="btn-texto">Nova consulta por vídeo</span>
+            <div class="botao-flutuante" >
+                <img src="assets/Camerafab.svg" alt="Ícone de câmera">
+            </div>
+        </div>
+        <div class="botao-flutuante" id="btn-flutuante">
+            <img src="assets/maisicone.svg" alt="Ícone sinal de adição">
+        </div>
     </div>
+    <div class="tela-escurecida"></div>
 </body>
 </html>
